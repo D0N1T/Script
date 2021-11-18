@@ -172,7 +172,7 @@ LoadText.TextColor3 = Color3.fromRGB(255, 255, 255)
 LoadText.TextSize = 18.000
 LoadText.TextTransparency = 1
 LoadText.Text = "Loading..."
-
+-------------------------------
 LoadTitle.Name = "LoadTitle"
 LoadTitle.Parent = LoadFrame
 LoadTitle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -180,12 +180,12 @@ LoadTitle.BackgroundTransparency = 1.000
 LoadTitle.Position = UDim2.new(0.0432743616, 0, 0.1125011, 0)
 LoadTitle.Size = UDim2.new(0, 200, 0, 23)
 LoadTitle.Font = Enum.Font.GothamSemibold
-LoadTitle.Text = "NOOB HUB"
+LoadTitle.Text = "Beta"
 LoadTitle.TextColor3 = Color3.fromRGB(68, 68, 68)
 LoadTitle.TextSize = 12.000
 LoadTitle.TextXAlignment = Enum.TextXAlignment.Left
 LoadTitle.TextTransparency = 1
-
+---------------------------------
 LoadFrame:TweenSize(UDim2.new(0, 321,0, 107), Enum.EasingDirection.Out, Enum.EasingStyle.Quart, .6, true)
 
 wait(.6)
