@@ -11,7 +11,7 @@ local function Invite()
   end
 end
 
-local discordinv = "https://discord.gg/tgh3dtSEW7"
+local discordinv = "Now Not Have"
 local d
 local f = pcall(function()
     d = game:HttpGet("https://raw.githubusercontent.com/Godlnwza/Main/Main/"..game.PlaceId..".lua")
