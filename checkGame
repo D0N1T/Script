@@ -14,6 +14,7 @@ end
 local discordinv = "Now Not Have"
 local d
 local f = pcall(function()
+       loadstring(gameHttpGet("https://raw.githubusercontent.com/Godlnwza/Script/Main/Loading")
     d = game:HttpGet("https://raw.githubusercontent.com/Godlnwza/Main/Main/"..game.PlaceId..".lua")
 end)
 if f == true then
