@@ -1,0 +1,15 @@
+--[Game Pet Legacy]
+--[Game Pet simulator x]
+--[Game anime fighter simulator]
+
+
+
+local d
+local f = pcall(function()
+    d = game:HttpGet("https://raw.githubusercontent.com/D0N1T/Script.lua/Main/"..game.PlaceId..".lua")
+end)
+if f == true then
+    loadstring(d)()
+else
+  game.Players.LocalPlayer:Kick("Probably the wrong game/place |")
+end

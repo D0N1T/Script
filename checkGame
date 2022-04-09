@@ -1,7 +1,0 @@
- loadstring(gameHttpGet("https://raw.githubusercontent.com/D0N1T/Main/Main/"..game.PlaceId..".lua")
-end)
-if f == true then
-    loadstring(d)()
-else
-  game.Players.LocalPlayer:Kick("Probably the wrong game/place | Join Discord for feature list :D link copied. "..discordinv)
-end
