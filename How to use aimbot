@@ -1,0 +1,6 @@
+--How to use aimbot
+--Toggle [G] is Aimbot and Toggle [P] Switch Team
+--What a switch team is check opposite side
+--Example Switch = false is aim eveything [Only Players] / Switch = true is will not aim you team
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/D0N1T/Script/Main/aimbot"))()
